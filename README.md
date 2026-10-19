@@ -1,4 +1,4 @@
-# Viết tự nhiên
+# PlainVoice
 
 Một skill biên tập văn xuôi tiếng Việt: bỏ câu sáo, soi chỗ yếu, giữ giọng người viết, tự rà bản sửa và kiểm chứng thông tin khi cần.
 
@@ -9,31 +9,31 @@ Giữ nguyên ý, dữ kiện và mức độ chắc chắn của bản nguồn.
 Cài cho Codex bằng Skills CLI:
 
 ```sh
-npx skills add nguyenquan27122005-cmd/viet-tu-nhien --global --agent codex
+npx skills add nguyenquan27122005-cmd/plainvoice --global --agent codex
 ```
 
-Hoặc tải repo, rồi đặt thư mục `viet-tu-nhien` vào thư mục skill của công cụ bạn dùng. Giữ nguyên `SKILL.md`, `agents/` và `references/`.
+Hoặc tải repo, rồi đặt thư mục `plainvoice` vào thư mục skill của công cụ bạn dùng. Giữ nguyên `SKILL.md`, `agents/` và `references/`.
 
 ## Cách dùng
 
 Sửa bài:
 
 ```text
-$viet-tu-nhien sửa bài dưới cho tự nhiên, giữ nguyên ý và giọng của tôi:
+$plainvoice sửa bài dưới cho tự nhiên, giữ nguyên ý và giọng của tôi:
 [dán bài]
 ```
 
 Soi câu yếu:
 
 ```text
-$viet-tu-nhien chỉ nhận xét các câu dài dòng, mơ hồ hoặc sáo rỗng trong bài này; trích câu và đề xuất sửa.
+$plainvoice chỉ nhận xét các câu dài dòng, mơ hồ hoặc sáo rỗng trong bài này; trích câu và đề xuất sửa.
 [dán bài]
 ```
 
 Viết theo giọng riêng:
 
 ```text
-$viet-tu-nhien viết lại bản nháp theo giọng các bài mẫu tôi tự viết.
+$plainvoice viết lại bản nháp theo giọng các bài mẫu tôi tự viết.
 Bài mẫu: [dán bài mẫu]
 Bản nháp: [dán bản nháp]
 ```
@@ -41,7 +41,7 @@ Bản nháp: [dán bản nháp]
 Kiểm chứng trước khi đăng:
 
 ```text
-$viet-tu-nhien sửa bài và kiểm chứng các khẳng định có thể kiểm tra, dẫn link nguồn, báo rõ phần chưa xác minh.
+$plainvoice sửa bài và kiểm chứng các khẳng định có thể kiểm tra, dẫn link nguồn, báo rõ phần chưa xác minh.
 [dán bài]
 ```
 

@@ -1,5 +1,5 @@
 ---
-name: viet-tu-nhien
+name: plainvoice
 description: >-
   Biên tập văn xuôi cho tự nhiên và đúng giọng người viết. Dùng khi người dùng
   muốn bỏ văn AI (humanize/de-slop), soi câu yếu, viết theo bài mẫu, soạn bài
@@ -7,7 +7,7 @@ description: >-
   code hay mọi câu trả lời kỹ thuật thông thường.
 ---
 
-# Viết tự nhiên
+# PlainVoice
 
 Biên tập để người đọc hiểu đúng ý và nhận ra giọng tác giả. Thước đo là câu rõ, chi tiết đúng và giọng phù hợp; không phải điểm của máy dò AI.
 
