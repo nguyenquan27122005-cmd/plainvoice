@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viết tự nhiên"
+  short_description: "Sửa văn AI, giữ giọng riêng, kiểm chứng khi cần"
+  default_prompt: "Dùng $viet-tu-nhien sửa đoạn dưới cho tự nhiên, giữ nguyên ý và giọng của tôi."
